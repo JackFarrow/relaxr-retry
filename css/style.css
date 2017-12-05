@@ -1,0 +1,207 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	padding: 20px;
+}
+
+.intuit-quote {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.relaxr-yellow {
+    font-size: 24px;
+    color: #f9e42e;
+    text-align: center;
+    font-weight: 800;
+}
+
+.second-cta-container {
+    height: 120px;
+    width: 100%;
+    background: #f9e42e;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding: 10% 35% 0px 35%;
+}
+
+.amanda {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 35% 10px 35%;
+}
+
+footer {
+    height: 240px;
+    width: 100%;
+    background-color: #121212;
+    /*background: rgb(11,14,14);*/
+    /*padding: 20px;*/
+    /*clear: both;*/
+}
+
+.copyright {
+    clear: both;
+    padding-top: 20px;
+    font-size: 9px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.social {
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    min-width: 100px;
+}
+
+nav {
+
+	color: white;
+}
+
+.purpose, ul {
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 17px;
+    padding-right: 50%;
+    list-style-type: disc;
+}
+
+.benefits {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    background-color: #f0efef;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button { 
+   border-radius: 5px; 
+   font-weight: 800; 
+   padding: 20px; 
+   width: 280px; 
+   font-size: 28px; 
+   text-align: center; 
+   display: block; 
+   margin: 0 auto; 
+ } 
+
+.yellow { 
+   background: #f9e42e; 
+   color: #033048; 
+ } 
+
+  .blue { 
+   background: #033048; 
+   color: #fff; 
+   font-size: 24px; 
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
